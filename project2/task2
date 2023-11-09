@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>R vaishnavi Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>R VAISHNAVI</h1>
+        <p>Information Science Engineering Student</p>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm John Smith, a computer science engineering student passionate about technology and software development.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project 1: E-Commerce Website</h3>
+            <img src="1.jpg" alt="E-Commerce Website Screenshot">
+            <p>A full-stack e-commerce website developed using HTML, CSS, JavaScript, and PHP. This project includes user authentication, product catalog, shopping cart, and order processing.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Landing page for travel booking</h3>
+            <img src="Screenshot 2023-10-01 182409.png" alt="E-Commerce Website Screenshot">
+            <p>A The project employs HTML and CSS to create an interactive travel package landing page. It showcases destinations like Kashmir, Goa, Rishikesh, Kerala, Wayanad, and Jaipur, offering detailed info, images, and contact details. Using a combination of these web development languages, it delivers a visually appealing and informative user experience.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 3: temaparature converter</h3>
+            <img src="Screenshot 2023-10-01 190714.png" alt="E-Commerce Website Screenshot">
+            <p>This code example creates a temperature converter website with a user-friendly interface. Users can input temperatures in Celsius, Fahrenheit, or Kelvin, and the website will convert and display the converted temperature. A background image is added to the entire page, enhancing its visual appeal.
+
+
+
+
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:arvi@gmail.com">john@example.com</a> or connect with me on <a href="https://linkedin.com/in/johnsmith" target="_blank">LinkedIn</a>.</p>
+        <p>Address: 123 Main Street, Your City, Your Country</p>
+        <p>GitHub: <a href="https://github.com/arvistar" target="_blank">github.com/yourusername</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 John Smith</p>
+    </footer>
+</body>
+</html>
